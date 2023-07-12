@@ -14,8 +14,12 @@ const router = createBrowserRouter([
     element: <Username/>,
   },
   {
-    path: "/resgister",
+    path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   },
   {
     path: "/password",
@@ -24,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/reset",
     element: <Reset />,
+  },
+  {
+    path: "/recovery",
+    element: <Recovery />,
   },
   {
     path: "*",
